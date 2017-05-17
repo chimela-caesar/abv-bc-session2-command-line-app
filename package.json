@@ -1,0 +1,19 @@
+{
+  "name": "abv-bc-session2-command-line-app",
+  "version": "1.0.0",
+  "description": "A simple command line application that consumes a Public API using a HTTP client library.
+This app will search wikipedia.com based on the string supplied as argument.",
+  "main": "libs/example.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chimela-caesar/abv-bc-session2-command-line-app.git"
+  },
+  "author": "chimela-caesar<chimela.caesar@gmail.com>",
+  "dependencies": {
+    "xhr": "*",
+  },
+  "license": "ISC"
+}
